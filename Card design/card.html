@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Card with Custom Button</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .card {
+            width: 300px;
+            border: 2px solid #3498db;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card-image {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .card-content {
+            margin-top: 15px;
+        }
+
+        .card-title {
+            font-family: 'Arial', sans-serif;
+            font-size: 24px;
+            color: #3498db;
+            margin: 10px 0;
+        }
+
+        .card-des {
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            color: #666;
+        }
+
+        .submit {
+            margin-top: 20px;
+        }
+
+        .custom-button {
+            padding: 10px 20px;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .custom-button:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src=https://i.postimg.cc/02tQk0g2/task-image.png alt="Your Image" class="card-image">
+        <div class="card-content">
+            <div class="card-title">
+                <h1>Niaz Mohammad</h1>
+            </div>
+            <div class="card-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit tenetur beatae magnam
+                quibusdam animi nobis voluptatum repellendus voluptatibus magni eligendi!</div>
+        </div>
+        <div class="submit">
+            <button class="custom-button">Click Me</button>
+        </div>
+    </div>
+</body>
+</html>
